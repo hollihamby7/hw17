@@ -1,0 +1,272 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0px;
+    padding: 0;
+    font-size: 15px;
+}
+
+header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+}
+
+h1 {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    margin-top: 28px;
+    margin-bottom: 0%;
+    color: #222222;
+}
+
+h2 {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #222222;
+}
+
+h3 {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    margin-top: 28px;
+    margin-bottom: 0%;
+    color: #222222;
+}
+
+h4 {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #222222;
+}
+
+h5 {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.footer-copyright {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+}
+
+.navigation{
+    background-color: #fff;
+    padding: 0px 80px 6px 80px;
+    height: 80px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+.about, .skills-row, .photography-site {
+    width: 1300px;
+    margin: auto;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.logo{
+    width: auto;
+    padding-top: 11px;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+body > header > nav > ul {
+    padding-right: 200px;
+}
+
+nav {
+    background-color: #fff;
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    float: right;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 0px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav > ul > li > a {
+    color: #2E2F65;
+    line-height: 2em;
+    padding: 1.5em 1.5em;
+    text-decoration: none;
+}
+
+.navigation-item {
+    border: 1px solid #2E2F65;
+    opacity: 1;
+}
+
+.about-content {
+    padding-top: 120px;
+    padding-bottom: 30px;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.about2 {
+    padding-left: 50px;
+    display: block;
+}
+
+body > section.heroimg > div > img {
+    margin-top: 20px;
+    width: 450px;
+}
+
+p {
+    margin-top: 24px;
+    margin-bottom: 0%;
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #222222;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 48px;
+    gap: 10px;
+    background: #A63C9F;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #A63C9F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.photography-site img {
+    width: 75px;
+}
+
+.skills {
+    background-color: #EDEDED;
+}
+.skills-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 24px;
+}
+
+.tools-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ux-skillset-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hanken-grotesk-med {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #222222;
+}
+.photography-site {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 24px;
+}
+
+body > footer > img {
+    width: 100px;
+}
+
+footer {
+    background-color: #2E2F65;
+    display: flex;
+    flex-direction: column ;
+    align-items:center;
+    bottom: 0px;
+    padding-top: 24px;
+    padding-bottom: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-copyright-section {
+    color: #fff;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.connect-icons {
+    width: 89px;
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+}
+.connect-icons img {
+    width: 44px;
+    height: 44px;
+}
+
+.heading3 {
+    color: white;
+}
